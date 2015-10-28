@@ -16,16 +16,21 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'petshop');
+// mysql://be6ba330b94573:ff7a1a4f@us-cdbr-iron-east-03.cleardb.net/heroku_aa50959cc462b14?reconnect=true
+//define('DB_NAME', 'petshop');
+define('DB_NAME', 'heroku_aa50959cc462b14');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+//define('DB_USER', 'root');
+define('DB_USER', 'be6ba330b94573');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+//define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'ff7a1a4f');
 
 /** MySQL hostname */
-define('DB_HOST', '127.0.0.1:8889');
+//define('DB_HOST', '127.0.0.1:8889');
+define('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
